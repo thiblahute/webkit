@@ -48,6 +48,8 @@ public:
 
 private:
     std::optional<int> m_fd;
+    std::optional<int> m_fps_n;
+    std::optional<int> m_fps_d;
 };
 
 } // namespace WebCore
